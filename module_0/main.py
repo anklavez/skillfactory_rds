@@ -30,7 +30,7 @@ def score_game(game_core_v1):
     for number in random_array:
         count_array.append(game_core_v1(number))
     score = int(np.mean(count_array))
-    print("Ваш алгоритм угадывает число в среднем за {score} попыток")
+    print("Ваш алгоритм угадывает число в среднем за " + str(score) + " попыток")
     return score
 
 
